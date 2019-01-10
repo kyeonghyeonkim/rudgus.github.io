@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>공주대학교 멀티시스템</title>
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="./css/all.css">
+</head>
+<script type="text/javascript">
+// 자바스크립트에서 사용하는 전역변수 선언
+var g4_path      = ".";
+var g4_bbs       = "bbs";
+var g4_bbs_img   = "img";
+var g4_url       = "http://147.46.143.205";
+var g4_is_member = "";
+var g4_is_admin  = "";
+var g4_bo_table  = "";
+var g4_sca       = "";
+var g4_charset   = "utf-8";
+var g4_cookie_domain = "";
+var g4_is_gecko  = navigator.userAgent.toLowerCase().indexOf("gecko") != -1;
+var g4_is_ie     = navigator.userAgent.toLowerCase().indexOf("msie") != -1;
+</script>
+<script src="./js/jquery-1.4.2.min.js"></script>
+<script src="./js/common.js"></script>
+<script src="./js/html5.js"></script>
+<script src="./js/script.js"></script>
+<script src="./js/default.js"></script>
+<script src="./js/jquery.droppy.js"></script>
+<script src="./js/jquery-syaku.rolling.js"></script>
+<body >
+<a name="g4_head"></a>
+
+
+<div id="wrap">
+
+	<div id="header">
+				<div class="top">
+			<h1 class="logo"><a href="/index.php"><img src="/images/common/logo.gif" alt="공주대학교 멀티시스템연구실" /></a></h1>
+			<div class="logo_s"><a href="/index.php"><img src="/images/common/logo_s.gif" alt="공주대학교" /></a></div>
+			<!--ul class="user_menu">
+				<li><a href="/index.php" class="um1">H</a></li>
+				<li><a href="/adm" class="um2">Login</a></li>
+				<li><a href="/bbs/board.php?bo_table=sub1_2" class="um3">Contact</a></li>
+			</ul-->
+		</div>
+
+		<script type="text/javascript"> 
+		$(function() {
+			$("#nav").droppy(); 
+		});
+
+		</script> 
+
+		<div id="globalNavi">
+			<ul id="nav">
+				<li><a href='/bbs/board.php?bo_table=sub1_1'>소개</a>
+					<ul class="ms1">
+						<li><a href="/bbs/board.php?bo_table=sub1_1">MES 소개</a></li>
+						<li><a href="/bbs/board.php?bo_table=sub1_2">오시는 길</a></li>
+					</ul>
+				</li>
+				<li><a href='/bbs/board.php?bo_table=sub2_1'>MEMBER</a>
+					<ul class="ms2">
+						<li><a href="/bbs/board.php?bo_table=sub2_1">교수</a></li>
+						<li><a href="/bbs/board.php?bo_table=sub2_2">학생</a></li>
+						
+					</ul>
+				</li>
+				<li><a href='/bbs/board.php?bo_table=sub3_1'>연구</a>
+					<ul class="ms3">
+						<li><a href="/bbs/board.php?bo_table=sub3_1">연구에 대해</a></li>
+						<li><a href="/bbs/board.php?bo_table=sub3_2">스텐트 밀리로봇</a></li>
+						<li><a href="/bbs/board.php?bo_table=sub3_3">멀티 모듈러 로봇</a></li>
+						<li><a href="/bbs/board.php?bo_table=sub3_4">Process Modeling</a></li>
+						<li><a href="/bbs/board.php?bo_table=sub3_5">Process Optimization</a></li>
+					</ul>
+				</li>
+				<li><a href='/bbs/board.php?bo_table=sub4_1'>발행</a>
+					<ul class="ms4">
+						<li><a href="/bbs/board.php?bo_table=sub4_1">Paper</a></li>
+						<li><a href="/bbs/board.php?bo_table=sub4_2">Patent</a></li>
+						<li><a href="/bbs/board.php?bo_table=sub4_3">Book</a></li>
+					</ul>
+				</li>
+				<li><a href='/bbs/board.php?bo_table=sub5_1'>공지사항</a></li>
+				<li><a href='/bbs/board.php?bo_table=sub6_1'>게시판</a></li>
+			</ul>
+		</div>
+
+			</div>
+
+	<div id="main_v">
+		<div class="main_img"></div>
+	</div>
+
+	<div id="main_con">
+		<ul class="main_rese">
+			<li class="mr1">
+				<span class="mr_txt1">연구</span>
+				<span class="mr_txt2">연구에 대해</span>
+				<a href="/bbs/board.php?bo_table=sub3_1" class="btn_view"><img src="/images/main/btn_view.gif" alt="view" /></a>
+			</li>
+			<li class="mr2">
+				<span class="mr_txt1">연구</span>
+				<span class="mr_txt2">스텐트 밀리 로봇<br />/Diagnosis</span>
+				<a href="/bbs/board.php?bo_table=sub3_2" class="btn_view"><img src="/images/main/btn_view.gif" alt="view" /></a>
+			</li>
+			<li class="mr3">
+				<span class="mr_txt1">연구</span>
+				<span class="mr_txt2">멀티 모듈러 로봇</span>
+				<a href="/bbs/board.php?bo_table=sub3_3" class="btn_view"><img src="/images/main/btn_view.gif" alt="view" /></a>
+			</li>
+			<li class="mr4">
+				<span class="mr_txt1">process system engineering</span>
+				<span class="mr_txt2">Process Modeling</span>
+				<a href="/bbs/board.php?bo_table=sub3_4" class="btn_view"><img src="/images/main/btn_view.gif" alt="view" /></a>
+			</li>
+			<li class="mr5">
+				<span class="mr_txt1">process system engineering</span>
+				<span class="mr_txt2">Process Optimization</span>
+				<a href="/bbs/board.php?bo_table=sub3_5" class="btn_view"><img src="/images/main/btn_view.gif" alt="view" /></a>
+			</li>
+		</ul>
+	</div>
+
+	<div id="footer">
+		<div class="bottom">
+			<div class="bottom_info">
+				<address>[31080] 충청남도 천안시 서북구 공대길 47 공주대학교 4공 205호 / TEL : 041-521-9288 </address>
+				<span class="copy">Copyright 2014 Energy Process Engineering Laboratory. All right reserved.</span>
+			</div>
+
+	
+
+			<div class="bn">
+				<!-- jQuery library
+<script type="text/javascript" src="./skin/latest/carousels_b/lib/js/external/_oldies/jquery-1.3.min.js"></script> -->
+<!-- jQuery Plugin scripts -->
+<script type="text/javascript" src="./skin/latest/carousels_b/lib/js/external/jquery.easing.1.3.min.js"></script>
+<script type="text/javascript" src="./skin/latest/carousels_b/lib/js/external/jquery.mousewheel.min.js"></script>
+<!-- Slider Kit scripts -->
+<script type="text/javascript" src="./skin/latest/carousels_b/lib/js/sliderkit/jquery.sliderkit.1.9.2.pack.js"></script>
+<!-- Slider Kit launch -->
+<script type="text/javascript">
+			$(window).load(function(){ //$(window).load() must be used instead of $(document).ready() because of Webkit compatibility
+
+				// Carousel > Demo #2
+				$(".carousel-demo2").sliderkit({
+					shownavitems:2, //나타나는 갯수 
+					scroll:1,
+					mousewheel:true,
+					circular:true,
+					start:2
+				});
+
+			});
+		</script>
+<!-- Slider Kit styles -->
+<link rel="stylesheet" type="text/css" href="./skin/latest/carousels_b/lib/css/sliderkit-core.css" media="screen, projection" />
+<link rel="stylesheet" type="text/css" href="./skin/latest/carousels_b/lib/css/sliderkit-demos.css" media="screen, projection" />
+<!-- Site styles 
+<link rel="stylesheet" type="text/css" href="./skin/latest/carousels_b/lib/css/sliderkit-site.css" media="screen, projection" />-->
+
+<!-- Start carousel-demo2 | 데모2 -->
+<div class="sliderkit carousel-demo2">
+  <div class="sliderkit-nav">
+    <div class="sliderkit-nav-clip">
+      <ul>
+            <li>
+      <a href='http://www.edrc.ac.kr' target="_blank"><img src='./data/file/banner/thumb_aki/7' width='152' height='46' border='0' style='border:1px #ccc solid'></a></a>
+      </li>
+            <li>
+      <a href='https://www.biomass.re.kr' target="_blank"><img src='./data/file/banner/thumb_aki/6' width='152' height='46' border='0' style='border:1px #ccc solid'></a></a>
+      </li>
+            <li>
+      <a href='http://bk21-chem-eng.snu.ac.kr/' target="_blank"><img src='./data/file/banner/thumb_aki/5' width='152' height='46' border='0' style='border:1px #ccc solid'></a></a>
+      </li>
+            <li>
+      <a href='http://icp.snu.ac.kr/index2.asp' target="_blank"><img src='./data/file/banner/thumb_aki/4' width='152' height='46' border='0' style='border:1px #ccc solid'></a></a>
+      </li>
+            <li>
+      <a href='http://cbe.snu.ac.kr/' target="_blank"><img src='./data/file/banner/thumb_aki/3' width='152' height='46' border='0' style='border:1px #ccc solid'></a></a>
+      </li>
+            <li>
+      <a href='http://eng.snu.ac.kr/index.php' target="_blank"><img src='./data/file/banner/thumb_aki/2' width='152' height='46' border='0' style='border:1px #ccc solid'></a></a>
+      </li>
+            <li>
+      <a href='http://snu.ac.kr/index.html' target="_blank"><img src='./data/file/banner/thumb_aki/1' width='152' height='46' border='0' style='border:1px #ccc solid'></a></a>
+      </li>
+      
+            </ul>
+    </div>
+    <div class="sliderkit-btn sliderkit-nav-btn sliderkit-nav-prev"><a href="#" title="Scroll to the left"><span>Previous</span></a></div>
+    <div class="sliderkit-btn sliderkit-nav-btn sliderkit-nav-next"><a href="#" title="Scroll to the right"><span>Next</span></a></div>
+  </div>
+</div>
+<!-- // end of carousel-demo2 | 데모2 끝!-->
+			</div>
+		</div>
+	</div>
+
+</div>
+
+
+
+
+
+<script type="text/javascript" src="./js/wrest.js"></script>
+
+<!-- 새창 대신 사용하는 iframe -->
+<iframe width=0 height=0 name='hiddenframe' style='display:none;'></iframe>
+
+
+</body>
+</html>
